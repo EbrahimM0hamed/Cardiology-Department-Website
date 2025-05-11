@@ -1,0 +1,83 @@
+.signin-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+    padding: 0px;
+    margin: 0px;
+    background-image: url('/Assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.border {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.username, .password {
+    display: flex;
+    align-items: center;
+    margin: 0 45px 0 0;
+    padding: 0;
+}
+
+.successful h3, .Invalid h3 {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #00a120;
+}
+.Invalid h3{
+color: #ff0000;
+}
+.successful-msg, .Invalid-msg {
+    display: flex;
+}
+
+.username h3, .password h3 {
+    margin: 0;
+    color: #5d1212;
+}
+.username input, .password input {
+    width: 100%;
+    margin: 0 0 0 40px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .signin-container {
+        flex-direction: column;
+  
+    }
+    
+    .border {
+        width: 90%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .username, .password {
+        margin: 0 30px 0 0;
+    }
+    .username input, .password input {
+        width: 100%;
+        margin: 0 0 0 20px;
+    }
+    
+}

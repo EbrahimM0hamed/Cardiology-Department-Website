@@ -1,0 +1,19 @@
+/* Our CSS code will be here */
+
+body {
+    background-color: #fff;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 80px;
+    margin: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding-top: 110px;
+    }
+    
+}
