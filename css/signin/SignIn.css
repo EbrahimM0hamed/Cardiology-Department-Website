@@ -6,7 +6,7 @@
     background-color: #f1f1f1;
     padding: 0px;
     margin: 0px;
-    background-image: url('/Assets/background.jpg');
+    background-image: url('../Assets/background.jpg');
     background-size: cover;
     background-position: center;
 }
