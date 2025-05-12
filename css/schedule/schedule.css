@@ -1,0 +1,75 @@
+.schedule-container-2 {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffffcc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.schedule-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+    padding: 0px;
+    margin: 0px;
+    background-image: url('../../Assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.schedule-container-2 h2 {
+  text-align: center;
+  color: #5d1212;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+input, select {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #5d1212;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #881818;
+}
+
+#booking-message {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .schedule-container-2 {
+    width: 90%;
+    padding: 15px;
+  }
+}

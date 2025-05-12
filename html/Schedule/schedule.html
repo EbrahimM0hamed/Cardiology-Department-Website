@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../../Assets/logo.png" type="image/png">
-    <title>Sign In</title>
+    <title>Schedule an appointment</title>
     <link rel="stylesheet" href="../../css/Styles.css">
     <link rel="stylesheet" href="../../css/header/header.css">
     <link rel="stylesheet" href="../../css/main/background1.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
-    <link rel="stylesheet" href="../../css/signin/SignIn.css">
     <script src="../../Script.js" defer></script>
     <link rel="stylesheet" href="../../css/footer/footer.css">
+    <link rel="stylesheet" href="../../css/schedule/schedule.css">
 </head>
 
 <body>
@@ -34,21 +34,28 @@
         </div>
     </header>
     <main>
-        <div class="signin-container">
-            <div class="border">
-                <h2 class="forDrMsg">Sign In Only for Doctors</h2>
-                <div class="username">
-                    <h3>Username:<h2>
-                            <input type="text" id="username" name="username" required>
-                </div>
-                <div class="password">
-                    <h3>Password:<h3>
-                            <input type="password" id="password" name="password" required>
-                </div>
-                <div class="msg"></div>
-                <div class="submit">
-                    <button type="submit">Sign In</button>
-                </div>
+        <div class="schedule-container">
+            <div class="schedule-container-2">
+                <h2>Schedule an Appointment or Surgery</h2>
+
+                <form id="appointment-form">
+                    <label for="appointment-name">Your Name:</label>
+                    <input type="text" id="appointment-name" name="appointment-name" required>
+                    <label for="appointment-type">Select Type:</label>
+                    <select id="appointment-type" name="appointment-type" required>
+                        <option value="appointment">Regular Appointment</option>
+                        <option value="surgery">Surgery</option>
+                    </select>
+
+                    <label for="appointment-date">Choose Date:</label>
+                    <input type="date" id="appointment-date" name="appointment-date" required>
+
+                    <label for="appointment-time">Choose Time:</label>
+                    <input type="time" id="appointment-time" name="appointment-time" required>
+
+                    <button type="submit">Book Now</button>
+                    <div id="booking-message"></div>
+                </form>
             </div>
         </div>
     </main>

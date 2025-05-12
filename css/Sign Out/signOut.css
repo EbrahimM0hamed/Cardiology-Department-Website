@@ -1,0 +1,44 @@
+.signout-container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: #ffffffcc;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Nunito', sans-serif;
+}
+
+.signout-container-2 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+    padding: 0px;
+    margin: 0px;
+    background-image: url('../../Assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#signout-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #5d1212;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#signout-button:hover {
+    background-color: #881818;
+}
+
+#signout-message {
+    margin-top: 15px;
+    font-weight: bold;
+}

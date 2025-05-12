@@ -10,12 +10,23 @@
     background-size: cover;
     background-position: center;
 }
+
+.forDrMsg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    color: #ff0000;
+    font-size: 17px;
+}
+
 .border {
     display: flex;
     flex-direction: column;
     width: 40%;
     align-items: center;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255,0.7);
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -26,23 +37,9 @@
     padding: 0;
 }
 
-.successful h3, .Invalid h3 {
-    display: none;
-    align-items: center;
-    justify-content: center;
-    margin: 0 0 0 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    color: #00a120;
+.msg {
+    margin: 10px 0 0 0;
 }
-.Invalid h3{
-color: #ff0000;
-}
-.successful-msg, .Invalid-msg {
-    display: flex;
-}
-
 .username h3, .password h3 {
     margin: 0;
     color: #5d1212;
@@ -54,11 +51,19 @@ color: #ff0000;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-.submit {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
+.submit button {
+    margin: 20px;
+    padding: 10px;
+    background-color: #5d1212;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit button:hover {
+    background-color: #881818;
 }
 
 @media screen and (max-width: 768px) {

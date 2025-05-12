@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../../Assets/logo.png" type="image/png">
-    <title>Sign In</title>
+    <title>Sign Out</title>
     <link rel="stylesheet" href="../../css/Styles.css">
     <link rel="stylesheet" href="../../css/header/header.css">
     <link rel="stylesheet" href="../../css/main/background1.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
-    <link rel="stylesheet" href="../../css/signin/SignIn.css">
     <script src="../../Script.js" defer></script>
     <link rel="stylesheet" href="../../css/footer/footer.css">
+    <link rel="stylesheet" href="../../css/Sign Out/signOut.css">
 </head>
 
 <body>
@@ -24,34 +24,24 @@
             </div>
             <nav class="navbar">
                 <ul>
-                    <li><a href="../../index.html">About</a></li>
                     <li><a href="#Services">Services</a></li>
                     <li><a href="../Schedule/schedule.html">Schedule</a></li>
-                    <li><a href="../signin/SingIn.html">Sign In</a></li>
+                    <li><a href="../Sign Out/signout.html">Sign Out</a></li>
                     <li><a href="#Contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <div class="signin-container">
-            <div class="border">
-                <h2 class="forDrMsg">Sign In Only for Doctors</h2>
-                <div class="username">
-                    <h3>Username:<h2>
-                            <input type="text" id="username" name="username" required>
-                </div>
-                <div class="password">
-                    <h3>Password:<h3>
-                            <input type="password" id="password" name="password" required>
-                </div>
-                <div class="msg"></div>
-                <div class="submit">
-                    <button type="submit">Sign In</button>
-                </div>
-            </div>
-        </div>
+    <div class="signout-container-2">
+    <div class = "signout-container">
+    <h2>You are logged in.</h2>
+    <button id="signout-button">Sign Out</button>
+    <div id="signout-message"></div>
+    </div>
+    </div>
     </main>
+
     <footer>
         <div class="footer-container">
             <p>Copyright &copy; Ebrahim Mohamed, Mohamed Jameel</p>
